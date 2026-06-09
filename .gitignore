@@ -1,0 +1,48 @@
+# ==========================================
+# Data and Dataset Exclusions
+# ==========================================
+# Block all CSV files everywhere in the project
+*.csv
+
+# Block all Excel spreadsheets
+*.xlsx
+*.xls
+*.xlsm
+
+# Block alternative data formats
+*.json
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.tsv
+
+# Block entire data directories explicitly just in case
+data/
+data/raw/
+data/processed/
+
+# ==========================================
+# Python Virtual Environments & Cache
+# ==========================================
+# Block your local virtual environment folder
+venv/
+.venv/
+env/
+ENV/
+
+# Block Python compiler cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ==========================================
+# IDE and System Configurations
+# ==========================================
+# VS Code configurations
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
